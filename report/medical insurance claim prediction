@@ -1,0 +1,68 @@
+# Medical Insurance Claim Prediction System
+
+## Introduction
+
+Medical insurance plays an important role in managing healthcare expenses. Predicting insurance claim amounts can help insurance companies estimate costs and make better decisions. This project uses Machine Learning techniques to predict medical insurance claim amounts based on customer information.
+
+## Objective
+
+The main objective of this project is to develop a machine learning model that predicts medical insurance claim amounts using factors such as age, gender, BMI, number of children, smoking status, and region.
+
+## Dataset Description
+
+The dataset contains customer information including:
+
+* Age
+* Gender
+* BMI (Body Mass Index)
+* Number of Children
+* Smoking Status
+* Region
+* Insurance Charges
+
+The target variable is the insurance claim amount (charges).
+
+## Tools and Technologies Used
+
+* Python
+* VS Code
+* Pandas
+* NumPy
+* Matplotlib
+* Seaborn
+* Scikit-learn
+
+## Methodology
+
+1. Loaded the insurance dataset using Pandas.
+2. Performed data preprocessing and cleaning.
+3. Converted categorical features into numerical values using Label Encoding.
+4. Split the dataset into training and testing sets.
+5. Trained a Random Forest Regressor model.
+6. Evaluated the model using the R² Score.
+7. Predicted insurance claim amounts for new customer data.
+
+## Data Visualization
+
+### Histogram
+
+A histogram was used to visualize the distribution of insurance charges and understand the spread of claim amounts.
+
+### Correlation Heatmap
+
+A heatmap was used to identify relationships between variables and determine which factors influence insurance charges.
+
+## Results
+
+The Random Forest Regressor model achieved a good R² Score, indicating that the model can accurately predict insurance claim amounts based on customer information.
+
+## Conclusion
+
+The Medical Insurance Claim Prediction System successfully predicts insurance claim amounts using machine learning techniques. The project demonstrates how data analysis and predictive modeling can support insurance companies in making accurate and efficient decisions.
+
+## Future Scope
+
+* Use larger datasets for improved accuracy.
+* Deploy the model as a web application.
+* Integrate real-time customer data for predictions.
+* Compare multiple machine learning algorithms for better performance.
